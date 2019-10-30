@@ -1,0 +1,110 @@
+h1 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 30% max-content;
+  grid-gap: 10%;
+
+  margin: auto;
+}
+div.yourColor {
+  height: 100px;
+  width: 100px;
+}
+
+div.svg {
+  justify-self: center;
+  width: 500px;
+  padding: 20px;
+  border: solid black 3px;
+}
+
+h5 {
+  text-align: center;
+}
+
+div.color {
+  justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+#selecor > input {
+  cursor: pointer;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 1px auto;
+  transition: border-radius 0.2s;
+}
+
+#selecor > input:hover,
+#selecor > div:hover {
+  border-radius: 10px;
+}
+
+#pallete > div {
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  margin: 10px auto;
+  border: black solid 3px;
+  transition: border-radius 0.2s;
+}
+
+#pallete > div:hover {
+  border-radius: 10px;
+}
+
+.color1 {
+  background-color: red;
+}
+.color2 {
+  background-color: #ffff00;
+}
+.color3 {
+  background-color: #00c800;
+}
+.color4 {
+  background-color: #7f007f;
+}
+.color5 {
+  background-color: #ffffff;
+}
+.color6 {
+  background-color: #eaa36f;
+}
+.color7 {
+  background-color: #f46509;
+}
+.color8 {
+  background-color: #36466a;
+}
+#selecor > div {
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  margin: 10px auto;
+  border: black solid 3px;
+  transition: border-radius 0.2s;
+}
+.yc {
+  background-color: white;
+}
+
+g#colorable {
+  cursor: crosshair;
+}
+
+g#colorable path:hover {
+  fill: black;
+}
+
+g#non-colorable,
+g#non-colorable path {
+  pointer-events: none;
+}
